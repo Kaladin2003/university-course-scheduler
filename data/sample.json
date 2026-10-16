@@ -1,0 +1,27 @@
+{
+  "timeslots": [0, 1, 2],
+  "rooms": {
+    "R1_Small": 15,
+    "R2_Medium": 25,
+    "R3_Large": 50
+  },
+  "courses": ["C1_Prog", "C2_Math", "C3_Cpp_Theory", "C3_Cpp_Lab", "C4_CSP_Theory", "C5_CSP_Lab"],
+  "students": {
+    "Student_1": ["C1_Prog", "C2_Math"],
+    "Student_2": ["C3_Cpp_Theory", "C3_Cpp_Lab", "C4_CSP_Theory"],
+    "Student_3": ["C4_CSP_Theory", "C5_CSP_Lab"],
+    "Student_4": ["C1_Prog", "C3_Cpp_Theory", "C3_Cpp_Lab"],
+    "Student_5": ["C2_Math", "C5_CSP_Lab"]
+  },
+  "extra_enrollments": {
+    "C3_Cpp_Theory": 20,
+    "C4_CSP_Theory": 30
+  },
+  "precedence": [
+    ["C3_Cpp_Theory", "C3_Cpp_Lab"],
+    ["C4_CSP_Theory", "C5_CSP_Lab"]
+  ],
+  "teacher_unavailable": {
+    "C1_Prog": [0]
+  }
+}
